@@ -10,3 +10,6 @@ curl 169.254.169.254/latest/meta-data/
 curl 169.254.169.254/latest/meta-data/ami-id
 curl 169.254.169.254/latest/meta-data/hostname
 ```
+
+### other great resources
+https://github.com/Apjo/AWSAssociateSolutionsArchitectNotes
