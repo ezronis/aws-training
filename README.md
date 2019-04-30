@@ -11,7 +11,7 @@ curl 169.254.169.254/latest/meta-data/ami-id
 curl 169.254.169.254/latest/meta-data/hostname
 ```
 
-### other great resources
+### Other great resources
 - https://gist.github.com/leonardofed/bbf6459ad154ad5215d354f3825435dc
 - https://github.com/Apjo/AWSAssociateSolutionsArchitectNotes
 - https://github.com/open-guides/og-aws
