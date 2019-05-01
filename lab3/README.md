@@ -29,7 +29,7 @@ Your VPC now has 2 subnets, but is totally isolated and can't communicate w/ res
     - creating a public route table for internet bound-traffic: click on "Create Route Table" and configure name tag, VPC from step 1
     - add a route to the route table to direct internet-bound traffic to the internet gateway: select newly created public route table and in the "Routes" tab, click on "edit routes". Click "add route" and configure destination (0.0.0.0/0), Target(select internet gateway and select Lab IGW from step 3) and click "Save Routes"
     - associate the public subnet with the new route table: Select the public subnet and click on the "subnet associates" tab and click "edit subnet associations". select the row with the public subnet.
-> To summarize, you can create a public subnet as follows:
+    > To summarize, you can create a public subnet as follows:
     - create an internet gateway
     - create a route table
     - add a route to the route table that directs 0.0.0.0/0 traffic to the internet gateway
